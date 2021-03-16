@@ -2,11 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Params from './ParamsExample';
+import Nesting from './Nesting';
+import Markeplace from './components/Marketplace'
+import Auth from './Auth';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Markeplace />
   </React.StrictMode>,
   document.getElementById('root')
 );
